@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "Gurinder Chauhan <gurinderchauhan@gmail.com>",
-  "private": true,
+  "private": false,
+  "homepage": "https://github.com/gurindersingh/vue-confirm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gurindersingh/vue-confirm"
+  },
+  "bugs": {
+    "mail": "gurinderchauhan@gmail.com",
+    "url": "https://github.com/gurindersingh/vue-confirm/issues"
+  },
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
