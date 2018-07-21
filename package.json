@@ -1,6 +1,6 @@
 {
   "name": "@gurinder/vue-confirm",
-  "version": "1.0.2",
+  "version": "1.0.2", 
   "private": false,
   "license": "MIT",
   "author": "Gurinder Chauhan <gurinderchauhan@gmail.com>",
@@ -19,7 +19,7 @@
     "lint": "vue-cli-service lint",
     "pack": "vue-cli-service build --target lib --name VueConfirm ./src/components/confirm.vue"
   },
-  "main": "./dist/VueConfirm.common.js",
+  "main": "src/components/confirm.vue",
   "files": [
     "dist/*.js",
     "dist/*.js.map",
